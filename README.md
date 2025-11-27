@@ -1,3 +1,21 @@
+## Screenshots
+
+- Home (empty state, persisted via Local Storage)
+  - Shows the landing view when there are no tasks yet. The app reads initial state from the browser’s Local Storage, so returning users see their previously saved tasks immediately.
+  - ![Home – Empty State](prints/1.png)
+
+- First Task Added
+  - Demonstrates creating the first task and the immediate update of the task list. This confirms add interactions and visual feedback for newly created items.
+  - ![First Task Added](prints/2.png)
+
+- Task Completion & Progress Indicator
+  - Highlights marking a task as done and the aggregate completion indicator at the top. This view validates the completed state styling and progress counts.
+  - ![Task Completion](prints/3.png)
+
+- Components Showcase
+  - A dedicated page that displays all UI components and their style variants. Useful for design review, rapid iteration, and visual regression checks.
+  - ![Components Showcase](prints/4.png)
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -110,21 +128,3 @@ pnpm lint
 - Offline install: `pnpm i --offline` (uses only packages already in the store).
 - CI: `pnpm i --frozen-lockfile` (doesn’t update the lockfile and fails if out of sync).
 - Workspace: in workspaces, `pnpm install` installs all projects; use `--filter` to scope if needed.
-
-## Screenshots
-
-- Home (empty state, persisted via Local Storage)
-  - Shows the landing view when there are no tasks yet. The app reads initial state from the browser’s Local Storage, so returning users see their previously saved tasks immediately.
-  - ![Home – Empty State](prints/1.png)
-
-- First Task Added
-  - Demonstrates creating the first task and the immediate update of the task list. This confirms add interactions and visual feedback for newly created items.
-  - ![First Task Added](prints/2.png)
-
-- Task Completion & Progress Indicator
-  - Highlights marking a task as done and the aggregate completion indicator at the top. This view validates the completed state styling and progress counts.
-  - ![Task Completion](prints/3.png)
-
-- Components Showcase
-  - A dedicated page that displays all UI components and their style variants. Useful for design review, rapid iteration, and visual regression checks.
-  - ![Components Showcase](prints/4.png)
